@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  todo-front:
+    build: .
+    container_name: todo_front
+    restart: always
+    ports:
+      - 4173:4173
